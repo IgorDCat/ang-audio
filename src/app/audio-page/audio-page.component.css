@@ -1,0 +1,16 @@
+.table {
+  width: 100%;
+}
+
+.table-item {
+  display: flex;
+  padding: 16px;
+  gap: 130px;
+  border: #dadada 1px solid;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.table-item:last-child {
+  border: #dadada 1px solid;
+}

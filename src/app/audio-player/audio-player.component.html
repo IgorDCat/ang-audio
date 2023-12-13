@@ -1,0 +1,4 @@
+<figure *ngIf='sound'>
+  <label class='title'>{{ sound.artist }} - {{ sound.name }}</label>
+  <audio controls [src]='sound.address'></audio>
+</figure>
