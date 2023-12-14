@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Sound } from '../../types/sound.type';
-import { ApiService } from '../../api/api.service';
+import { Sound } from '../types/sound.type';
+import { ApiService } from '../api/api.service';
 
 @Component({
   selector: 'app-audio-page',

@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Sound } from '../../types/sound.type';
+import { Sound } from '../types/sound.type';
 
 @Component({
   selector: 'app-audio-player',
