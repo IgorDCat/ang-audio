@@ -1,7 +1,14 @@
 <div>
   <div class='table'>
+    <div class='table-item title'>
+      <span> </span>
+      <span>id</span>
+      <span>Наименование звука</span>
+      <span>Имя файла звукозаписи</span>
+    </div>
     <div class='table-item' *ngFor='let sound of dataSource' (click)='currentSound = sound'>
       <span>▶</span>
+      <span>{{ sound.id }}</span>
       <span>{{ sound.artist }}</span>
       <span>{{ sound.name }}</span>
     </div>

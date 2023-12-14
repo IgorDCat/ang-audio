@@ -5,10 +5,17 @@
 .table-item {
   display: flex;
   padding: 16px;
-  gap: 130px;
   border: #dadada 1px solid;
   border-bottom: none;
   cursor: pointer;
+}
+
+.table-item span {
+  width: 200px;
+}
+
+.title {
+  font-weight: 700;
 }
 
 .table-item:last-child {
